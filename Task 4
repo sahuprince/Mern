@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+</head>
+<body>
+    <h2>Subjects List</h2>
+    
+    <h3>Ordered List (Subjects in Semester 1)</h3>
+    <ol>
+        <li>Mathematics</li>
+        <li>Physics</li>
+        <li>Computer Programming</li>
+        <li>English</li>
+    </ol>
+
+    <h3>Unordered List (Programming Languages)</h3>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+    </ul>
+</body>
+</html>
