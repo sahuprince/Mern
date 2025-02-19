@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            background-color: lightblue;
+        }
+        @media (max-width: 600px) {
+            .container {
+                background-color: pink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Resize the window to see the effect</h2>
+        <p>The background color changes on smaller screens.</p>
+    </div>
+</body>
+</html>
